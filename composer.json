@@ -1,0 +1,31 @@
+{
+    "name": "devgroup/yii2-adjacency-tree",
+    "description": "Adjacency tree helpers and behaviors for yii2 ActiveRecord models",
+    "type": "yii2-extension",
+    "keywords": ["yii2","adjacency tree","tree","activerecord"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Kozhevnikov",
+            "email": "b37hr3z3n@gmail.com"
+        },
+        {
+            "name": "Evgeny Dubovitsky",
+            "email": "flynn068@gmail.com"
+        },
+        {
+            "name": "Pavel Fedotov",
+            "email": "fps.06@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "devgroup/yii2-tag-dependency-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "devgroup\\AdjacencyTree\\": ""
+        }
+    }
+}
