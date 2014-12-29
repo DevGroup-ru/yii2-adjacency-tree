@@ -4,6 +4,7 @@ namespace devgroup\AdjacencyTree;
 
 use Yii;
 use yii\base\Behavior;
+use yii\helpers\Url;
 
 /**
  * Tree behavior for ActiveRecord
